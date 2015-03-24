@@ -14,4 +14,4 @@ echo "--> c++98..."
 gcc -xc++ -O2 -fPIC -I/usr/include/lua5.1 -c src/*.c -Isrc/ -Wall --pedantic -Werror --std=c++98
 
 echo "----> Making rock"
-sudo luarocks make rockspec/lua-geoip-scm-1.rockspec
+luarocks make rockspec/lua-geoip-scm-1.rockspec
